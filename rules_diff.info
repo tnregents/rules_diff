@@ -1,0 +1,9 @@
+name = Rules Diff
+description = Provides the differences between two entities and integrates with rules.
+core = 7.x
+
+files[] = rules_diff.tokens.inc
+stylesheets[all][] = rules_diff.css
+
+dependencies[] = rules
+dependencies[] = diff
